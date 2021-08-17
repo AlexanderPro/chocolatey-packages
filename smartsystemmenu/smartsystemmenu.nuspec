@@ -26,10 +26,10 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>2.1.1</version>
-    <packageSourceUrl>https://github.com/KageShiron/chocolatey-packages/tree/master/smartsystemmenu</packageSourceUrl>
+    <version>2.9.3</version>
+    <packageSourceUrl>https://github.com/AlexanderPro/chocolatey-packages/tree/master/smartsystemmenu</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <owners>KageShiron</owners>
+    <owners>AlexanderPro</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -37,8 +37,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>SmartSystemMenu</title>
     <authors>Alexander Illarionov</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://smartsysmenu.codeplex.com/</projectUrl>
-    <iconUrl>https://rawgit.com/KageShiron/chocolatey-packages/master/smartsystemmenu/icon.png</iconUrl>
+    <projectUrl>https://github.com/AlexanderPro/SmartSystemMenu</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/AlexanderPro/chocolatey-packages/master/smartsystemmenu/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
