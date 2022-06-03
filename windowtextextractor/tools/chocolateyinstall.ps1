@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName= 'windowtextextractor'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/AlexanderPro/WindowTextExtractor/releases/download/v1.9.0/WindowTextExtractor_v1.9.0.zip'
+$url        = 'https://github.com/AlexanderPro/WindowTextExtractor/releases/download/v1.13.0/WindowTextExtractor_v1.13.0.zip'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -9,7 +9,7 @@ $packageArgs = @{
   fileType      = 'zip'
   url           = $url
   softwareName  = 'WindowTextExtractor*'
-  checksum      = 'afc84d3ac047dcfbbdd7d248eb4023dadc7ebc2abee53042baa57fd70a23422f'
+  checksum      = 'd8b0fc135355141f0b67f036c6582badddf4b9e5014953734ba4de336d79c1b7'
   checksumType  = 'sha256'
 }
 
